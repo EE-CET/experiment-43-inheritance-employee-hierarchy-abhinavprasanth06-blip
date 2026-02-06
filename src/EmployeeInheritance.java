@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Employee {
+ class Employee {
     String name;
     int age;
     float salary;
@@ -25,20 +25,18 @@ public class EmployeeInheritance {
 
         Scanner sc = new Scanner(System.in);
 
-        // -------- Officer --------
+        // Officer
         Officer O1 = new Officer();
-
-        System.out.println("Enter Officer details:");
         O1.name = sc.nextLine();
         O1.age = sc.nextInt();
         O1.phone = sc.nextLong();
-        sc.nextLine(); // clear buffer
+        sc.nextLine();
         O1.address = sc.nextLine();
         O1.salary = sc.nextFloat();
-        sc.nextLine(); // clear buffer
+        sc.nextLine();
         O1.specialization = sc.nextLine();
 
-        System.out.println("\nOfficer:");
+        System.out.println("Officer:");
         System.out.println(O1.name);
         System.out.println(O1.age);
         System.out.println(O1.phone);
@@ -46,20 +44,17 @@ public class EmployeeInheritance {
         System.out.println(O1.salary);
         System.out.println(O1.specialization);
 
-        // -------- Manager --------
+        // Manager
         Manager M1 = new Manager();
-
-        System.out.println("\nEnter Manager details:");
         M1.name = sc.nextLine();
         M1.age = sc.nextInt();
         M1.phone = sc.nextLong();
-        sc.nextLine();
         M1.address = sc.nextLine();
         M1.salary = sc.nextFloat();
         sc.nextLine();
         M1.department = sc.nextLine();
 
-        System.out.println("\nManager:");
+        System.out.println("Manager:");
         System.out.println(M1.name);
         System.out.println(M1.age);
         System.out.println(M1.phone);

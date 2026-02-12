@@ -29,6 +29,7 @@ public class EmployeeInheritance {
         sc.nextLine();   
         O1.address = sc.nextLine();
         O1.salary = sc.nextFloat();
+        sc.nextLine();   
         O1.specialization = sc.nextLine();
         sc.nextLine();   
 
@@ -42,6 +43,7 @@ public class EmployeeInheritance {
         sc.nextLine();   
         M1.address = sc.nextLine();
         M1.salary = sc.nextFloat();
+        sc.nextLine();   
         M1.department = sc.nextLine();
         sc.nextLine();  
 

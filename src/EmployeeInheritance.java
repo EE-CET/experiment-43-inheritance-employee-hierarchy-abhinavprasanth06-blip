@@ -31,7 +31,7 @@ public class EmployeeInheritance {
         O1.salary = sc.nextFloat();
         sc.nextLine();   
         O1.specialization = sc.nextLine();
-        sc.nextLine();   
+  
 
        
 
@@ -45,7 +45,6 @@ public class EmployeeInheritance {
         M1.salary = sc.nextFloat();
         sc.nextLine();   
         M1.department = sc.nextLine();
-        sc.nextLine();  
 
 
         System.out.println("Officer:");

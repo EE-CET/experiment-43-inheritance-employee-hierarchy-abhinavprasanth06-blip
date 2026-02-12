@@ -6,10 +6,6 @@ import java.util.Scanner;
     float salary;
     long phone;
     String address;
-
-    void printSalary() {
-        System.out.println(salary);
-    }
 }
 
 class Officer extends Employee {
@@ -30,10 +26,8 @@ public class EmployeeInheritance {
         O1.name = sc.nextLine();
         O1.age = sc.nextInt();
         O1.phone = sc.nextLong();
-        sc.nextLine();
         O1.address = sc.nextLine();
         O1.salary = sc.nextFloat();
-        sc.nextLine();
         O1.specialization = sc.nextLine();
 
         System.out.println("Officer:");
@@ -51,7 +45,6 @@ public class EmployeeInheritance {
         M1.phone = sc.nextLong();
         M1.address = sc.nextLine();
         M1.salary = sc.nextFloat();
-        sc.nextLine();
         M1.department = sc.nextLine();
 
         System.out.println("Manager:");

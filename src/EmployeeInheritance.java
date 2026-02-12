@@ -26,9 +26,25 @@ public class EmployeeInheritance {
         O1.name = sc.nextLine();
         O1.age = sc.nextInt();
         O1.phone = sc.nextLong();
+        sc.nextLine();   
         O1.address = sc.nextLine();
         O1.salary = sc.nextFloat();
         O1.specialization = sc.nextLine();
+        sc.nextLine();   
+
+       
+
+        // Manager
+        Manager M1 = new Manager();
+        M1.name = sc.nextLine();
+        M1.age = sc.nextInt();
+        M1.phone = sc.nextLong();
+        sc.nextLine();   
+        M1.address = sc.nextLine();
+        M1.salary = sc.nextFloat();
+        M1.department = sc.nextLine();
+        sc.nextLine();  
+
 
         System.out.println("Officer:");
         System.out.println(O1.name);
@@ -37,15 +53,6 @@ public class EmployeeInheritance {
         System.out.println(O1.address);
         System.out.println(O1.salary);
         System.out.println(O1.specialization);
-
-        // Manager
-        Manager M1 = new Manager();
-        M1.name = sc.nextLine();
-        M1.age = sc.nextInt();
-        M1.phone = sc.nextLong();
-        M1.address = sc.nextLine();
-        M1.salary = sc.nextFloat();
-        M1.department = sc.nextLine();
 
         System.out.println("Manager:");
         System.out.println(M1.name);
